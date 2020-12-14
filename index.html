@@ -5,8 +5,95 @@
     <title>Design System</title>
     <link rel="stylesheet" type="text/css" href="/css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Piazzolla:ital@0;1&display=swap" rel="stylesheet">
   </head>
   <body>
-
+    <header>
+      <h1>AP's Design System</h1>
+      <p>A handy design system to have for beautiful minimalistic web designs</p>
+      <nav>
+        <ul class="component-menu">
+          <li><a href="#">Colors</a></li>
+          <li><a href="#">Fonts</a></li>
+          <li><a href="#">Text Styles</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="colors">
+        <header><h2>Colors</h2></header>
+        <ul id="colors-list">
+          <li>
+            <h3>Metallic Seaweed</h3>
+            <p>#1D7B82</p>
+          </li>
+          <li>
+            <h3>Amazon</h3>
+            <p>#376E4D</p>
+          </li>
+          <li>
+            <h3>Cerulean Blue</h3>
+            <p>#314FC6</p>
+          </li>
+          <li>
+            <h3>Satin Sheen Cold</h3>
+            <p>#B79221</p>
+          </li>
+        </ul>
+      </section>
+      <!-- Fonts -->
+      <section id="fonts">
+        <header><h2>Fonts</h2></header>
+        <section class="font" id="bungee">
+          <h3>Bungee</h3>
+          <p>Maybe I don't really wanna know how your garden grows</p>
+          <p class="bold-paragraph">Maybe I don't really wanna know how your garden grows</p>
+          <p class="italic-paragraph">Maybe I don't really wanna know how your garden grows</p>
+        </section>
+        <section class="font" id="piazzolla">
+          <h3>Piazzolla</h3>
+          <p>Maybe I don't really wanna know how your garden grows</p>
+          <p class="bold-paragraph">Maybe I don't really wanna know how your garden grows</p>
+          <p class="italic-paragraph">Maybe I don't really wanna know how your garden grows</p>
+        </section>
+        <section class="font" id="menlo">
+          <h3>Menlo</h3>
+          <p>Maybe I don't really wanna know how your garden grows</p>
+          <p class="bold-paragraph">Maybe I don't really wanna know how your garden grows</p>
+          <p class="italic-paragraph">Maybe I don't really wanna know how your garden grows</p>
+        </section>
+      </section>
+      <!-- Text Styles -->
+      <section id="text-styles">
+        <section id="h1-heading">
+          <header><h1>H1: Main Page heading</h1></header>
+          <ul class="properties">
+            <li>Font-weight: 900(bold)</li>
+            <li>Font-size: 40px</li>
+            <li>Font-family: Bungee</li>
+          </ul>
+        </section>
+        <section id="subheading">
+          <header>H2: Subheading</header>
+          <ul class="properties">
+            <li>Font-weight: 600(bold)</li>
+            <li>Font-size: 20px</li>
+            <li>Font-family: Menlo</li>
+          </ul>
+        </section>
+        <section id="paragraph">
+          <header><h4>P: Paragraph text</h4></header>
+          <ul class="properties">
+            <li>Font-weight: 400(normal)</li>
+            <li>Font-size: 16px(1rem)</li>
+            <li>Font-family: sans-serif</li>
+          </ul>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <p><small>Created by Anastasios Poursaitides</small></p>
+    </footer>
   </body>
 </html>
