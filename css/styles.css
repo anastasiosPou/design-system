@@ -57,3 +57,12 @@ h1 {
   color: #222;
   font-family: "Bungee", Arial, sans-serif;
 }
+
+/* Header navigation media queries */
+@media (max-width: 670px) {
+  .component-menu {
+    flex-direction: column;
+    height: 120px;
+    justify-content: space-between;
+  }
+}
