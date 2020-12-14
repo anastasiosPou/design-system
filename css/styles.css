@@ -66,3 +66,53 @@ h1 {
     justify-content: space-between;
   }
 }
+
+/* Main section styles */
+
+/* Colors section */
+#colors {
+  display: flex;
+  padding: 10px;
+  height: 400px;
+}
+
+#colors header {
+  font-family: "Bungee", Arial, sans-serif;
+  font-size: 1.25rem;
+  color: #E1D460;
+  text-shadow: -2px 1px 1px #000;
+  text-align: center;
+  flex: 1;
+  align-self: center;
+}
+
+#colors-list {
+  display: flex;
+  flex-flow: row wrap;
+  flex: 2;
+}
+
+#colors-list li {
+  flex: 1;
+  margin: 4px;
+  border-radius: 2px;
+  text-align: center;
+  color: #fff;
+}
+
+/* #colors-list color items */
+#metallic-seaweed {
+  background-color: #1d7B82;
+}
+
+#amazon {
+  background-color: #376E4D;
+}
+
+#cerulean-blue {
+  background-color: #314FC6;
+}
+
+#satin-sheen-gold {
+  background-color: #B79221;
+}
