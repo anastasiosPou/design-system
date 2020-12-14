@@ -1,0 +1,59 @@
+/* Basic Styles */
+body {
+  font-family: Menlo, Verdana, Arial, serif;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* Header Styles */
+#top-header {
+  text-align: center;
+  border: 2px solid #222;
+  box-shadow: 0 2px 0 3px #222;
+}
+
+h1 {
+  font-family: "Piazzolla", Arial, serif;
+  font-size: 5rem;
+}
+
+#top-header p,
+.component-menu {
+  font-size: 1.2rem;
+}
+
+/* Header navigation styles */
+.component-menu {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+}
+
+.component-menu a:link {
+  text-decoration: none;
+}
+
+.component-menu a:hover {
+  text-decoration: underline;
+}
+
+.component-menu a[href="#colors"] {
+  color: white;
+  background-color: #1D7B82;
+  border-radius: 4px;
+  padding: 6px;
+  font-weight: 700;
+}
+
+.component-menu a[href="#fonts"] {
+  color: #376E4D;
+  font-family: "Piazzolla", Arial, sans-serif;
+}
+
+.component-menu a[href="#text-styles"] {
+  color: #222;
+  font-family: "Bungee", Arial, sans-serif;
+}
