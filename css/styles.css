@@ -8,6 +8,11 @@ ul {
   padding-left: 0;
 }
 
+section {
+	margin-top: 50px;
+	padding: 10px;
+}
+
 /* Header Styles */
 #top-header {
   text-align: center;
@@ -115,4 +120,38 @@ h1 {
 
 #satin-sheen-gold {
   background-color: #B79221;
+}
+
+/* Fonts section */
+#fonts {
+	display: flex;
+	flex-flow: column wrap;
+
+}
+
+#fonts header {
+	color: tomato;
+	font-family: "Bungee", Arial, sans-serif;
+  font-size: 1.25rem;
+	text-align: center;
+}
+
+#bungee {
+	font-family: "Bungee";
+}
+
+.bold-paragraph {
+	font-weight: bold;
+}
+
+.italic-paragraph {
+	font-style: italic;
+}
+
+#piazzolla {
+	font-family: "Piazzolla", Arial, sans-serif;
+}
+
+#menlo {
+	font-family: "Menlo", Arial, sans-serif;
 }
